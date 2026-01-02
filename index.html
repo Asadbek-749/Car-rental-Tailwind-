@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>car-rental</title>
+  </head>
+  <body class="bg-[#1C1C1C]">
+    <header>
+      <!-- Nav  -->
+      <nav class="border-b-[1.5px] border-b-[#333333] pt-6.75 pb-6.75">
+        <div class="container mx-auto flex items-center justify-between">
+          <!-- Nav left  -->
+          <div class="flex items-center gap-5">
+            <a href="./index.html"
+              ><img src="./public/assest/svg/Logo.svg" alt="Sayt logo"
+            /></a>
+
+            <ul class="flex items-center gap-5">
+              <li>
+                <a
+                  class="font-[Montserrat] font-medium text-[18px] leading-[100%] tracking-[0] text-center text-white hover:text-amber-400"
+                  href="#"
+                >
+                  Categories
+                </a>
+              </li>
+              <li>
+                <a
+                  class="font-[Montserrat] font-medium text-[18px] leading-[100%] tracking-[0] text-center text-white hover:text-amber-400"
+                  href="#"
+                >
+                  About Us</a
+                >
+              </li>
+              <li>
+                <a
+                  class="font-[Montserrat] font-medium text-[18px] leading-[100%] tracking-[0] text-center text-white hover:text-amber-400"
+                  href="#"
+                >
+                  Help center</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Nav Right  -->
+          <div class="flex items-center gap-6">
+            <a
+              class="font-[Montserrat] font-semibold text-[18px] leading-[100%] tracking-[0] text-white"
+              href="tel:+18554200000"
+              >+1 855 420 0000</a
+            >
+            <img
+              class="w-14.5 h-14.5"
+              src="./public/assest/svg/dark-mode.svg"
+              alt="dark-mode"
+            />
+            <button
+              class="flex items-center gap-2 pt-4.5 pb-4.5 pr-7.5 pl-7.5 bg-[#299764] rounded-[100px] text-white font-[Montserrat] font-medium text-[18px] leading-[100%] tracking-[0] cursor-pointer hover:shadow-[0_6px_15px_0_#299764] transition-shadow duration-300"
+            >
+              Login
+              <img src="./public/assest/svg/Login.svg" alt="Login" />
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN SECTION  -->
+    <main class="container mx-auto py-5 relative ">
+      <img
+        class="mx-auto w-full"
+        src="./public/assest/img/main-bck.png"
+        alt="main-bck"
+      />
+
+      <div class="mx-auto flex absolute -bottom-0.5 right-35 items-center py-1.5 px-1.5 gap-3 bg-white justify-between w-150 rounded-2xl ">
+        <input
+          type="text"
+          placeholder="Find the car of your dreams"
+          class="border p-2 rounded  outline-0 w-full "
+        />
+        <button class="p-3 bg-green-600 rounded-[100px]">
+          <img src="./public/assest/svg/Search.svg" alt="Search" />
+        </button>
+      </div>
+    </main>
+  </body>
+</html>
