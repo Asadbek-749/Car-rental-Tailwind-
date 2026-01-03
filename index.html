@@ -74,23 +74,430 @@
     </header>
 
     <!-- MAIN SECTION  -->
-    <main class="container mx-auto py-5 relative ">
+    <main class="container mx-auto py-5 relative">
       <img
         class="mx-auto w-full"
         src="./public/assest/img/main-bck.png"
         alt="main-bck"
       />
 
-      <div class="mx-auto flex absolute -bottom-0.5 right-35 items-center py-1.5 px-1.5 gap-3 bg-white justify-between w-150 rounded-2xl ">
+      <div
+        class="mx-auto flex absolute -bottom-0.5 right-135 items-center py-1.5 px-1.5 gap-3 bg-white justify-between w-150 rounded-[100px]"
+      >
         <input
           type="text"
           placeholder="Find the car of your dreams"
-          class="border p-2 rounded  outline-0 w-full "
+          class="p-4 rounded outline-0 w-[90%]"
         />
-        <button class="p-3 bg-green-600 rounded-[100px]">
+        <button
+          class="p-4 bg-green-600 rounded-[100px] cursor-pointer w-14.5 h-14.5"
+        >
           <img src="./public/assest/svg/Search.svg" alt="Search" />
         </button>
       </div>
     </main>
+
+    <!-- Choose the car of your dreams Section  -->
+    <div class="container mx-auto">
+      <!-- Info  -->
+      <div
+        class="flex flex-col justify-center items-center mt-25 mb-10 gap-2.5"
+      >
+        <h2
+          class="font-montserrat font-semibold text-[36px] leading-[100%] text-center text-white"
+        >
+          Choose the car of your dreams
+        </h2>
+        <p
+          class="font-montserrat font-normal text-[16px] leading-6 tracking-[0] text-center text-white"
+        >
+          We provide our customers with the most incredible driving emotions.
+          <br />
+          That is why there are only world-class cars in our fleet
+        </p>
+      </div>
+
+      <!-- Button  -->
+      <div class="flex items-center justify-center gap-4 mb-6">
+        <button
+          class="py-4.75 px-10 font-medium text-[16px] leading-[100%] tracking-[0] text-center text-white border-[1.5px] border-[#333333] rounded-[100px] hover:cursor-pointer hover:bg-[#299764] hover:transition-all duration-500 ease-in-out"
+          type="submit"
+        >
+          Compact
+        </button>
+        <button
+          class="py-4.75 px-10 font-medium text-[16px] leading-[100%] tracking-[0] text-center text-white border-[1.5px] border-[#333333] rounded-[100px] hover:cursor-pointer hover:bg-[#299764] hover:transition-all duration-500 ease-in-out"
+          type="submit"
+        >
+          Sports cars
+        </button>
+        <button
+          class="py-4.75 px-10 font-medium text-[16px] leading-[100%] tracking-[0] text-center text-white border-[1.5px] border-[#333333] rounded-[100px] hover:cursor-pointer hover:bg-[#299764] hover:transition-all duration-500 ease-in-out"
+          type="submit"
+        >
+          Vans
+        </button>
+      </div>
+
+      <!-- Cars Card   -->
+      <div class="container mx-auto mb-10">
+        <!-- Cards  -->
+        <div class="grid grid-cols-3 gap-5">
+          <!-- Card  -->
+          <div class="py-7.5 px-6 bg-[#272727] rounded-2xl flex flex-col gap-4">
+            <div class="flex flex-col gap-2">
+              <h3
+                class="font-semibold text-[24px] leading-[100%] tracking-[0] text-white"
+              >
+                Ford Fiesta
+              </h3>
+              <p
+                class="font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                Economy Car
+              </p>
+            </div>
+            <div>
+              <img class="w-full" src="\assest\img\car1.png" alt="Car" />
+            </div>
+
+            <div class="grid grid-cols-2 grid-rows-2 gap-2">
+              <p
+                class="flex items-center gap-3 font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                <img src="\assest\svg\User.svg" alt="User" />5 Seats
+              </p>
+              <p
+                class="flex items-center gap-3 font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                <img src="\assest\svg\gear.svg" alt="User" />Automatic
+              </p>
+              <p
+                class="flex items-center gap-3 font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                <img src="\assest\svg\user-contact.svg" alt="User" />21+ Years
+              </p>
+              <p
+                class="flex items-center gap-3 font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                <img src="\assest\svg\petrol.svg" alt="User" />1-lit / 2.5 km
+              </p>
+            </div>
+          </div>
+
+          <div class="py-7.5 px-6 bg-[#272727] rounded-2xl flex flex-col gap-4">
+            <div class="flex flex-col gap-2">
+              <h3
+                class="font-semibold text-[24px] leading-[100%] tracking-[0] text-white"
+              >
+                Nissan Versa
+              </h3>
+              <p
+                class="font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                Compact Car
+              </p>
+            </div>
+            <div>
+              <img class="w-full" src="\assest\img\car2.png" alt="Car" />
+            </div>
+
+            <div class="grid grid-cols-2 grid-rows-2 gap-2">
+              <p
+                class="flex items-center gap-3 font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                <img src="\assest\svg\User.svg" alt="User" />5 Seats
+              </p>
+              <p
+                class="flex items-center gap-3 font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                <img src="\assest\svg\gear.svg" alt="User" />Automatic
+              </p>
+              <p
+                class="flex items-center gap-3 font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                <img src="\assest\svg\user-contact.svg" alt="User" />21+ Years
+              </p>
+              <p
+                class="flex items-center gap-3 font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                <img src="\assest\svg\petrol.svg" alt="User" />1-lit / 2.5 km
+              </p>
+            </div>
+          </div>
+
+          <div class="py-7.5 px-6 bg-[#272727] rounded-2xl flex flex-col gap-4">
+            <div class="flex flex-col gap-2">
+              <h3
+                class="font-semibold text-[24px] leading-[100%] tracking-[0] text-white"
+              >
+                Toyota Corolla
+              </h3>
+              <p
+                class="font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                Mid-size Car
+              </p>
+            </div>
+            <div>
+              <img class="w-full" src="\assest\img\car3.png" alt="Car" />
+            </div>
+
+            <div class="grid grid-cols-2 grid-rows-2 gap-2">
+              <p
+                class="flex items-center gap-3 font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                <img src="\assest\svg\User.svg" alt="User" />5 Seats
+              </p>
+              <p
+                class="flex items-center gap-3 font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                <img src="\assest\svg\gear.svg" alt="User" />Automatic
+              </p>
+              <p
+                class="flex items-center gap-3 font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                <img src="\assest\svg\user-contact.svg" alt="User" />21+ Years
+              </p>
+              <p
+                class="flex items-center gap-3 font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                <img src="\assest\svg\petrol.svg" alt="User" />1-lit / 2.5 km
+              </p>
+            </div>
+          </div>
+
+          <div class="py-7.5 px-6 bg-[#272727] rounded-2xl flex flex-col gap-4">
+            <div class="flex flex-col gap-2">
+              <h3
+                class="font-semibold text-[24px] leading-[100%] tracking-[0] text-white"
+              >
+                Nissan Rogue
+              </h3>
+              <p
+                class="font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                Mid-size SUV
+              </p>
+            </div>
+            <div>
+              <img class="w-full" src="\assest\img\car4.png" alt="Car" />
+            </div>
+
+            <div class="grid grid-cols-2 grid-rows-2 gap-2">
+              <p
+                class="flex items-center gap-3 font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                <img src="\assest\svg\User.svg" alt="User" />5 Seats
+              </p>
+              <p
+                class="flex items-center gap-3 font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                <img src="\assest\svg\gear.svg" alt="User" />Automatic
+              </p>
+              <p
+                class="flex items-center gap-3 font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                <img src="\assest\svg\user-contact.svg" alt="User" />21+ Years
+              </p>
+              <p
+                class="flex items-center gap-3 font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                <img src="\assest\svg\petrol.svg" alt="User" />1-lit / 2.5 km
+              </p>
+            </div>
+          </div>
+
+          <div class="py-7.5 px-6 bg-[#272727] rounded-2xl flex flex-col gap-4">
+            <div class="flex flex-col gap-2">
+              <h3
+                class="font-semibold text-[24px] leading-[100%] tracking-[0] text-white"
+              >
+                Chevy Traverse
+              </h3>
+              <p
+                class="font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                Full-size SUV
+              </p>
+            </div>
+            <div>
+              <img class="w-full" src="\assest\img\car5.png" alt="Car" />
+            </div>
+
+            <div class="grid grid-cols-2 grid-rows-2 gap-2">
+              <p
+                class="flex items-center gap-3 font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                <img src="\assest\svg\User.svg" alt="User" />5 Seats
+              </p>
+              <p
+                class="flex items-center gap-3 font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                <img src="\assest\svg\gear.svg" alt="User" />Automatic
+              </p>
+              <p
+                class="flex items-center gap-3 font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                <img src="\assest\svg\user-contact.svg" alt="User" />21+ Years
+              </p>
+              <p
+                class="flex items-center gap-3 font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                <img src="\assest\svg\petrol.svg" alt="User" />1-lit / 2.5 km
+              </p>
+            </div>
+          </div>
+
+          <div class="py-7.5 px-6 bg-[#272727] rounded-2xl flex flex-col gap-4">
+            <div class="flex flex-col gap-2">
+              <h3
+                class="font-semibold text-[24px] leading-[100%] tracking-[0] text-white"
+              >
+                Nissan Altima
+              </h3>
+              <p
+                class="font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                Full-size Car
+              </p>
+            </div>
+            <div>
+              <img class="w-full" src="\assest\img\car6.png" alt="Car" />
+            </div>
+
+            <div class="grid grid-cols-2 grid-rows-2 gap-2">
+              <p
+                class="flex items-center gap-3 font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                <img src="\assest\svg\User.svg" alt="User" />5 Seats
+              </p>
+              <p
+                class="flex items-center gap-3 font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                <img src="\assest\svg\gear.svg" alt="User" />Automatic
+              </p>
+              <p
+                class="flex items-center gap-3 font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                <img src="\assest\svg\user-contact.svg" alt="User" />21+ Years
+              </p>
+              <p
+                class="flex items-center gap-3 font-medium text-[16px] leading-[100%] tracking-[0] text-white"
+              >
+                <img src="\assest\svg\petrol.svg" alt="User" />1-lit / 2.5 km
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Button  -->
+        <div class="flex items-center justify-center mt-14.5">
+          <button
+            class="py-4.75 px-10 font-medium text-[16px] leading-[100%] tracking-[0] text-center text-white border-[1.5px] border-[#333333] rounded-[100px] hover:cursor-pointer hover:bg-[#299764] hover:transition-all duration-500 ease-in-out"
+            type="submit"
+          >
+            View all cars
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hear what the community is saying Section  -->
+    <div class="bg-[#272727] my-40">
+      <div class="container mx-auto py-25">
+        <!-- card  -->
+        <div class="grid grid-cols-[40%_60%]">
+          <!-- Left  -->
+          <div
+            class="p-17.5 flex flex-col bg-[#1C1C1C] rounded-tl-2xl rounded-bl-2xl"
+          >
+            <div class="mb-4">
+              <img src="\assest\svg\from-google.svg" alt="" />
+            </div>
+
+            <h2
+              class="font-medium text-[38px] leading-12.5 tracking-[0] text-white w-82.5"
+            >
+              Hear what the community is saying
+            </h2>
+
+            <div
+              class="w-82.5 h-0.5 my-7.5 opacity-100 bg-linear-to-r from-[#EA4335] via-[#FBBC05] to-[#4285F4]"
+            ></div>
+
+            <p
+              class="font-montserrat font-medium text-[14px] leading-[100%] tracking-[0] text-white mb-4"
+            >
+              More interesting reviews on Instagram
+            </p>
+            <div>
+              <button
+                class="rounded-[100px] gap-2 pt-4.5 pr-12.5 pb-4.5 pl-12.5 border-[1.5px] bg-white"
+              >
+                Instagram
+              </button>
+            </div>
+          </div>
+          <!-- Right  -->
+          <div class="bg-[#299764] pt-12.5 px-10 rounded-tr-2xl rounded-br-2xl">
+            <div class="flex flex-col bg-[#1C1C1C] rounded-2xl p-6 w-[65%]">
+              <!-- Top  -->
+              <div class="flex justify-between items-center">
+                <div class="flex gap-3">
+                  <img src="\assest\svg\avatar.svg" alt="user" />
+                  <div class="flex flex-col gap-1.25">
+                    <strong
+                      class="font-semibold text-[16px] leading-[100%] tracking-[0] text-white"
+                      >Savannah Nguyen</strong
+                    >
+                    <p
+                      class="font-montserrat font-normal text-[14px] leading-[100%] tracking-[0] text-white"
+                    >
+                      savannahnguyen@gmail.com
+                    </p>
+                  </div>
+                </div>
+                <img src="\assest\svg\google-icon.svg" alt="google-icon" />
+              </div>
+              <!-- Center  -->
+              <p
+                class="mt-3.5 mb-6.25 font-montserrat font-normal text-[14px] leading-5 tracking-[0] text-white"
+              >
+                Sagittis sed tortor, elementum vitae varius sodales consectetur.
+                Vitae arcu ut morbi bibendum ullamcorper feugiat. Venenatis
+                hendrerit cursus egestas sit ornare nunc vulputate aliquam
+                sapien. Pulvinar nunc consectetur nibh consectetur mollis mauris
+                est mauris amet. Sed hac vehicula id et dui morbi quam pulvinar
+                condimentum. Senectus sed varius interdum nunc, arcu vulputate
+                massa.
+              </p>
+
+              <!-- Line  -->
+              <div class="w-full border-[1.5px] border-[#333333]"></div>
+
+              <!-- Bottom  -->
+              <div class="flex gap-5 items-center mt-6.25">
+                <p
+                  class="font-montserrat font-medium text-[14px] leading-[100%] tracking-[0] text-white"
+                >
+                  Star rating:
+                </p>
+                <img src="public\assest\svg\ratate.svg" alt="ratate" />
+              </div>
+            </div>
+
+            <div class="flex gap-5 items-center mt-6.25">
+            <div class="w-full h-1 rounded-[10px] opacity-100 bg-white"></div>
+            <div class="w-21 h-9">
+              <img class="w-full" src="public\assest\svg\left-right.svg" alt="icon" />
+            </div>
+          </div>
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
   </body>
 </html>
